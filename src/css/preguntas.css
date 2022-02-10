@@ -1,0 +1,48 @@
+.page,
+.page .btn-link, 
+.page .btn-link:hover, 
+.page .btn-link:focus, 
+.page .btn-link:active{
+    color: #000064;
+    text-transform: inherit;
+}
+
+
+
+.page .btn-link,
+.page .btn-link:hover {
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+}
+div.accordion div.card{
+    box-shadow: none;
+    
+}
+.accordion>div.card:not(:last-of-type){
+    border-bottom: 1px solid #6C63FF;
+    
+}
+
+
+
+div.card-header{
+    background-color: transparent;
+    padding: 0px;
+}
+
+div.card-header{
+    border-bottom: transparent;
+}
+
+
+.isRotated {
+    transition: transform .3s ease-in-out;
+    transform:  rotate(90deg);
+  }
+
+.usRotated {
+    transition: transform .3s ease-in-out;
+    transform:  rotate(0deg);
+  }

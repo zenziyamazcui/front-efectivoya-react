@@ -1,0 +1,93 @@
+button.Calc-Active{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding: auto;
+    color: #6D63FF;
+    width: 120px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.carousel{
+    background: #FFFFFF;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='23' viewBox='0 0 14 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.585 21.7445C12.7704 21.5595 12.9175 21.3397 13.0179 21.0978C13.1183 20.8558 13.1699 20.5964 13.1699 20.3345C13.1699 20.0726 13.1183 19.8132 13.0179 19.5713C12.9175 19.3293 12.7704 19.1095 12.585 18.9245L4.82504 11.1645L12.585 3.40451C12.959 3.03056 13.1691 2.52337 13.1691 1.99451C13.1691 1.46566 12.959 0.958462 12.585 0.584507C12.2111 0.210552 11.7039 0.000470987 11.175 0.000470941C10.6462 0.000470894 10.139 0.210552 9.76504 0.584507L0.585033 9.76451C0.399625 9.94954 0.252531 10.1693 0.152168 10.4113C0.0518054 10.6532 0.000145957 10.9126 0.000145934 11.1745C0.000145911 11.4364 0.0518053 11.6958 0.152168 11.9378C0.252531 12.1797 0.399625 12.3995 0.585032 12.5845L9.76503 21.7645C10.525 22.5245 11.805 22.5245 12.585 21.7445Z' fill='%23C4C4C4'/%3E%3C/svg%3E%0A");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='23' viewBox='0 0 14 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.620045 0.587524C0.434638 0.772552 0.287543 0.992329 0.18718 1.23428C0.0868167 1.47622 0.0351562 1.73559 0.0351562 1.99752C0.0351562 2.25946 0.0868167 2.51883 0.18718 2.76077C0.287543 3.00272 0.434638 3.2225 0.620045 3.40752L8.38004 11.1675L0.620045 18.9275C0.246089 19.3015 0.0360031 19.8087 0.0360031 20.3375C0.0360031 20.8664 0.246089 21.3736 0.620045 21.7475C0.994 22.1215 1.50119 22.3316 2.03004 22.3316C2.5589 22.3316 3.06609 22.1215 3.44004 21.7475L12.62 12.5675C12.8055 12.3825 12.9525 12.1627 13.0529 11.9208C13.1533 11.6788 13.2049 11.4195 13.2049 11.1575C13.2049 10.8956 13.1533 10.6362 13.0529 10.3943C12.9525 10.1523 12.8055 9.93255 12.62 9.74752L3.44004 0.567524C2.68004 -0.192476 1.40004 -0.192475 0.620045 0.587524Z' fill='%23C4C4C4'/%3E%3C/svg%3E%0A");
+}
+
+@media (max-width: 600px) {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: none;
+    }
+  }
+
+@media (max-width: 600px) {
+    .carousel-indicators {
+        margin-bottom: -15px;
+    }
+
+    .carousel-indicators li {
+        background-color: #C4C4C4;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        margin: 8px;
+      }
+      
+      .carousel-indicators li.active {
+        background-color: #6C63FF;
+        width: 8px ;
+        height: 8px;
+      }
+}
+
+.online {
+    margin-top: -15px;
+}
+
+button.Calc-Desac{
+    background-color: #F5F7FF;
+    color: #C1CCFC;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: auto;
+    font-size: 12px;
+    height: 32px;
+    margin: auto;
+    width: 120px;    
+}
+
+button.Calc-Desac:hover{
+    background: rgba(196, 196, 196, 0.56);
+    border: 1px solid rgba(196, 196, 196, 0.56);
+}
+
+button.Calc-Desac:active{
+    background: rgba(196, 196, 196, 0.56);
+    border: 1px solid rgba(196, 196, 196, 0.56);
+}
+
+
+button.btn-Calculadora{
+    background: #6C63FF;
+    box-shadow: 0px 4px 20px rgba(196, 196, 196, 0.4);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border-color: #6C63FF;
+    height: 3.5em;
+}
